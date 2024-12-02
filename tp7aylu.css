@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;  
+    background-color: #1470188e;
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #010502;
+    background-color: rgb(14, 126, 47);
+}
+
+header {
+    background-color: #0caf0c;
+    width: auto;
+    text-align: left;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(45, 172, 66, 0.411);
+    margin: auto;
+    width: max-content;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+aside {
+    width: 35%;
+    float: left;
+}
+
+article  {
+    margin-bottom: 20px;
+    margin: 2px 1em 0 auto
+    
+
+    
+} 
+
+footer {
+    clear: both;
+    background-color: #b9db69;
+   
+    
+}
+
+h1  { 
+
+color: #130f0f;
+background-color: #03d330;
+width: 35%;
+text-align: center;
+margin-inline-start: 35%;
+
+}
+
+h2 {
+
+    color: #030303;
+    background-color: #2ac737;
+    padding: 0%;
+    width: 80%;
+     
+}
+
+title {
+ 
+    color: #680157;
+
+}
+
+
+
+a:link {
+  color: rgb(2, 0, 0); 
+
+}
+
+
+a:visited {
+    color: rgb(207, 189, 26);
+  }
+
+  a{
+    color: black;
+  }
+
+  a:hover{
+    color: rgba(42, 177, 64, 0.568);
+  }
+
+  a:active{
+    color: rgb(83, 161, 31);
+  }
+
+
+
+ /* el padding se utiliza para establecer el area de relleno en los cuatro lados de algn tituloo texto a la vez, por ejemplo ,
+ 1em; aplica a los cuatro lados, 5% 10%; cuando se especifican 2 valorese primer relleno se aplica  a la parte de "arriba y abajo" y la segunda a la "dereha y izquierda".
+Cuando se especifican tres valores, el primer relleno se aplica a la parte de arriba, el segundo a la derecha e izquierda, el tercero a la parte de abajo.
+     Cuando se especifican cuatro valores, los rellenos se aplican a la parte de arriba, derecha, abajo e izquierda en ese orden (en el sentido de las agujas del reloj).
+ */
+
+ /* */
